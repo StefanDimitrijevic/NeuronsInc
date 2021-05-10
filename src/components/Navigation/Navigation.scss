@@ -1,0 +1,17 @@
+@import "../../styles/base.scss";
+
+.Navigation {
+    height: 56px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: $white;
+
+    .logo-wrapper {
+        margin-left: 46px;
+        display: flex;
+
+        .logo {
+            margin-top: 16px;
+        }
+    }
+}
